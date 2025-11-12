@@ -23,7 +23,7 @@ After all combinations are tested, the program prints the **final (smallest) rel
 1. Clone the repo:
    `
    git clone https://github.com/<your-username>/fermat-near-miss.git
-   `
+   `.
 2.changing directory:
    `
    cd fermat-near-miss
