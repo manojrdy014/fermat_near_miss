@@ -38,13 +38,18 @@ Windows
    python fermat_near_miss.py
 `
 
-->Notes
-  -Input validation ensures that:
+## ->Notes
+
+-Input validation ensures that:
+    
      3 ≤ n ≤ 11
      k > 10
-  -Only integers are accepted
-  -The program handles large values gracefully (Python supports big integers)
-  -For very large k, execution may take a while
+     
+-Only integers are accepted
+  
+-The program handles large values gracefully (Python supports big integers)
+  
+-For very large k, execution may take a while
 
     
 
