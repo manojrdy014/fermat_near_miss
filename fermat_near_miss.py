@@ -3,17 +3,17 @@ Title: Fermat's Last Theorem — Near Miss Finder
 File: fermat_near_miss.py
 External files required: None
 External files created: None
-Programmers: Manoj Reddy (manoj@example.com), Partner Name (partner@example.com)
-Course & Section: CPSC XXX - Software Engineering, Section Y
-Completion / Submission Date: November XX, 2025
+Programmers: Manoj Reddy (bajjurimanojrdy@gmail.com.com), Dheeraj (partner@example.com)
+Course & Section:FA25-CPSC-60500-004 - Software Engineering,
+Completion / Submission Date: November 14, 2025
 Description:
     Interactive program that searches for integer "near misses" of Fermat's equation:
         x^n + y^n ~= z^n
-    The user supplies n (3 <= n <= 11) and k (k > 10). For each pair (x, y) with
+    The user will supply n (3 <= n <= 11) and k (k > 10). For each pair (x, y) with
     10 <= x <= k and 10 <= y <= k the program computes which integer z or z+1
-    is closest to x^n + y^n, records the miss (absolute difference) and the
-    relative miss (miss / (x^n + y^n)). Every time a new smallest relative miss
-    is found, it is printed. The final (smallest) miss is printed last.
+    is closest to x^n + y^n, records the absolute miss and the
+    relative miss (absolute miss / (x^n + y^n)). Every time a new smallest relative miss
+    is found, it is printed. The final best (smallest) miss is printed at last.
 Resources used:
     - Python 3.11 documentation (math, pow)
     - Assignment specification provided by instructor
@@ -21,7 +21,7 @@ Language & Version: Python 3.x (tested with 3.10/3.11)
 How to run (brief):
     - Ensure Python 3.x is installed.
     - Run: python fermat_near_miss.py
-    - Or use provided run script / create exe per README.
+    - Or use provided run script / created exe file as per README.
 """
 
 import math
@@ -146,4 +146,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
