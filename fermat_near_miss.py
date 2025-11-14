@@ -132,7 +132,7 @@ def main():
         best = best if 'best' in locals() else {'x':None, 'y':None, 'z':None, 'actual_miss':None, 'relative_miss':None}
 
     # Final result printed last, clearly labeled
-    print("\n=== FINAL / BEST RESULT (printed last) ===")
+    print("\n=== FINAL / BEST RESULT ===")
     if best['x'] is not None:
         print(f"x = {best['x']}, y = {best['y']}, z = {best['z']}")
         print(f"Actual miss = {best['actual_miss']}")
@@ -146,3 +146,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
