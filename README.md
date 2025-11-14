@@ -20,20 +20,29 @@ After all combinations are tested, the program prints the **final (smallest) rel
 - No external libraries required.
 
 ## How to run
+
 1. Clone the repo:
+
    `
    git clone https://github.com/<your-username>/fermat-near-miss.git
-   `.
+   `
+   
 2.changing directory:
+
    `
    cd fermat-near-miss
    `
+   
 3.Run the program:
+
 Unix/macOS:
+
 `
    python3 fermat_near_miss.py
 `
+
 Windows
+
 `
    python fermat_near_miss.py
 `
