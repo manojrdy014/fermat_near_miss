@@ -3,7 +3,7 @@ Title: Fermat's Last Theorem — Near Miss Finder
 File: fermat_near_miss.py
 External files required: None
 External files created: None
-Programmers: Manoj Reddy (bajjurimanojrdy@gmail.com.com), Dheeraj (partner@example.com)
+Programmers: Manoj Reddy (bajjurimanojrdy@gmail.com), Dheeraj (dheerajdavuluri@lewisu.edu)
 Course & Section:FA25-CPSC-60500-004 - Software Engineering,
 Completion / Submission Date: November 14, 2025
 Description:
@@ -146,5 +146,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
